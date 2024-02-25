@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "name": "polling-portal",
+    "workspaces": [
+      "packages/*"
+    ],
+    "scripts": {
+      "start": "yarn server & yarn client",
+      "client" : "yarn workspace client start",
+      "server"  : "yarn workspace app start"
+    }
+  }
+  
