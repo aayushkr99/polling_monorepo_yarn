@@ -27,7 +27,7 @@ services:
       - nginx
     build:
       dockerfile: Dockerfile
-      context: './packages/polling_website_'
+      context: './packages/client'
     ports:
       - "3000:3000"
     volumes:
